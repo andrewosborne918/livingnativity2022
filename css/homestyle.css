@@ -1,0 +1,48 @@
+body{
+  margin: 10% 20%;
+  text-align: center;
+  background-color: #00ADB5;
+}
+
+@media (max-width: 1020px) {
+  body{
+    margin: 25% 10%;
+  }
+}
+
+h1{
+  margin: 20% 5% 50px;
+  font-size: 4.5rem;
+  color: #EEEEEE;
+  font-family: museo-sans-display, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+.form-control {
+  font-size: 2rem;
+}
+
+.page-button {
+  width: 500px !important;
+  margin: 20px;
+}
+
+.btn-lg {
+  padding: 25px 50px;
+  font-size: 2rem;
+  border-radius: 10px;
+  border-width: thick;
+  margin: 20px;
+}
+
+
+/* Color Pallette
+#393E46
+#00ADB5
+#AAD8D3
+#EEEEEE */

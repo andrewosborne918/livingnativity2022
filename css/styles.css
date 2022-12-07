@@ -1,0 +1,147 @@
+
+
+body {
+  background-color: #EEEEEE;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 0 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  position: static;
+  display: inline;
+  font-family: museo-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 20px 50px;
+  Color: white;
+}
+
+h3 {
+  margin: 20px 50px;
+  font-size: 5rem;
+  color: #00ADB5;
+  font-family: museo-sans-display, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@media (max-width: 1000px) {
+
+  p {
+    font-size: 3rem;
+  }
+
+  .nav-item{
+    font-size: 2.5rem;
+  }
+}
+
+hr {
+  margin: 20px 0;
+}
+
+/* Header */
+.header {
+  position: relative;
+  padding-top: 20px;
+}
+
+
+.navbar {
+  background-color: #00ADB5;
+}
+
+.navbar-brand{
+margin: 0;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+.navbar-toggler-icon {
+  padding: 2.5rem;
+}
+
+
+/* Audio Player */
+.audio-player {
+  margin: 1rem 2.5rem 50px;
+}
+
+.audio-text {
+  font-size: 1rem;
+  margin: 0 50px ;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #AAD8D3;
+  color: #AAD8D3;
+}
+
+/* Paragraph description */
+.paragraph-description {
+  word-wrap: break-word;
+  max-width: 92%;
+}
+
+/* Next Section Buttons */
+.arrow-left-buttons {
+  width: 7rem;
+  float: left;
+}
+
+.arrow-right-buttons {
+  width: 7rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 92%;
+}
+
+.last-button {
+  position: relative;
+  text-align: left;
+}
+
+.nav-buttons {
+  max-width: 100%;
+}
+
+.nav-container {
+  margin-bottom: 40px;
+}
+
+.next-button {
+  position: relative;
+
+  float: right;
+}
+
+/* Color Pallette
+#393E46
+#00ADB5
+#AAD8D3
+#EEEEEE */
